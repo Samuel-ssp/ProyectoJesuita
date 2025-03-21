@@ -1,0 +1,62 @@
+.idioma{
+	position: absolute;
+    top: 10px; /* Distancia desde la parte superior */
+    right: 10px; /* Distancia desde la parte derecha */
+    width: 50px; /* Tamaño de la imagen */
+    height: auto;
+    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+    transition: transform 0.2s ease-in-out; /* Efecto al pasar el mouse */
+	border-radius: 50%;
+}
+.idioma:hover {
+    transform: scale(1.1); /* Hace la imagen un poco más grande al pasar el mouse */
+}
+body {
+	width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    justify-content: center;
+    align-items: center;
+	background-color: #21a9c7;
+}
+
+h1 {
+	border: solid white 2px;
+	border-radius: 15px;
+	font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+	font-family: Arial, sans-serif;
+	width: 976px; /*1000-(2+2)-20*/ 
+    margin-left: 2px; 
+	margin-right: 2px; 
+    padding: 20px; 
+	border-radius: 10px;
+	background-color: #f0f0f0;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+label {
+	font-family: Arial, sans-serif;
+    display: block;/* Para no mover los labels*/
+    margin-bottom: 8px;
+    font-size: 14px
+}
+
+div {
+	font-family: Arial, sans-serif;
+	width: 976px;
+	margin: 20px 2px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #f0f0f0;
+	line-height: 1.6;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
