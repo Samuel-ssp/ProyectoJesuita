@@ -1,0 +1,1 @@
+Dentro de la carpeta esta el proyecto entero y el introducir jesuita con el codificar codigo ya implementado. Fuera de la carpeta tengo un excel con los datos antiguis de donde se puede sacar los codigos para iniciar sesion.
